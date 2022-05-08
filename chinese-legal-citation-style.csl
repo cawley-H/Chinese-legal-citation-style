@@ -346,8 +346,9 @@
               <text variable="title" prefix="《" suffix="》，"/>
               <text variable="container-title" prefix="载《" suffix="》"/>
               <text macro="issuance" suffix="年"/>
-              <text variable="volume" prefix="第" suffix="期，"/>
-              <text variable="page" prefix="第" suffix="页"/>
+              <text variable="volume" prefix="第" suffix="卷"/>
+              <text variable="issue" prefix="第" suffix="期"/>
+              <text variable="page" prefix=",第" suffix="页"/>
               <text variable="locator" prefix=", "/>
             </else>
           </choose>
